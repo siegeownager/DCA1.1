@@ -16,8 +16,8 @@ You don't have to know about docker-machine. You can run multiple virtualized no
 
 ● [Describe and demonstrate how to extend the instructions to run individual containers into running services under swarm.](https://docs.docker.com/engine/swarm/services/)
 ● [Describe the importance of quorum in a swarm cluster.](https://docs.docker.com/engine/swarm/raft/)
-● [Describe the difference between running a container and running a service.]
-● [Interpret the output of “docker inspect” commands.]
+● [Describe the difference between running a container and running a service.](https://docs.docker.com/engine/swarm/how-swarm-mode-works/services/)
+● [Interpret the output of “docker inspect” commands.](https://docs.docker.com/engine/reference/commandline/inspect/)
 ● [Convert an application deployment into a stack file using a YAML compose file with "docker stack deploy"]
 ● [Manipulate a running stack of services.]
 ● [Describe and demonstrate orchestration activities.]
