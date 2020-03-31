@@ -12,7 +12,8 @@ In this initial version, I plan to only provide quicklinks to what is present in
 Content may include the following:
 
 ● [Complete the setup of a swarm mode cluster, with managers and worker nodes](https://docs.docker.com/engine/swarm/swarm-tutorial/)
-You don't have to know about docker-machine. You can run multiple virtualized nodes in other ways if needed.
+
+Note: You don't have to know about docker-machine. You can run multiple virtualized nodes in other ways if needed.
 
 ● [Describe and demonstrate how to extend the instructions to run individual containers into running services under swarm.](https://docs.docker.com/engine/swarm/services/)
 
