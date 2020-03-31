@@ -15,6 +15,7 @@ Content may include the following:
 You don't have to know about docker-machine. You can run multiple virtualized nodes in other ways if needed.
 
 ● [Describe and demonstrate how to extend the instructions to run individual containers into running services under swarm.](https://docs.docker.com/engine/swarm/services/)
+
 ● [Describe the importance of quorum in a swarm cluster.](https://docs.docker.com/engine/swarm/raft/)
 
 ● [Describe the difference between running a container and running a service.](https://docs.docker.com/engine/swarm/how-swarm-mode-works/services/)
@@ -22,7 +23,10 @@ You don't have to know about docker-machine. You can run multiple virtualized no
 ● [Interpret the output of “docker inspect” commands.](https://docs.docker.com/engine/reference/commandline/inspect/)
 
 ● [Convert an application deployment into a stack file using a YAML compose file with "docker stack deploy"](https://docs.docker.com/engine/swarm/stack-deploy/)
+
 ● [Manipulate a running stack of services.](https://docs.docker.com/engine/reference/commandline/stack_services/#related-commands)
+
+---- TODO-----
 
 ● [Describe and demonstrate orchestration activities.]
 
@@ -49,82 +53,133 @@ You don't have to know about docker-machine. You can run multiple virtualized no
 ### Domain 2: Image Creation, Management, and Registry (20% of exam)
 Content may include the following:
 
-● Describe the use of Dockerfile.
-● Describe options, such as add, copy, volumes, expose, entry point.
-● Identify and display the main parts of a Dockerfile.
-● Describe and demonstrate how to create an efficient image via a Dockerfile.
-● Describe and demonstrate how to use CLI commands to manage images, such as list, delete,
-prune, rmi.
-● Describe and demonstrate how to inspect images and report specific attributes using filter and
-format
-● Describe and demonstrate how to tag an image.
-● Describe and demonstrate how to apply a file to create a Docker image.
-● Describe and demonstrate how to display layers of a Docker image
-● Describe and demonstrate how to modify an image to a single layer.
-● Describe and demonstrate registry functions.
-● Deploy a registry.
-● Log into a registry.
-● Utilize search in a registry.
-● Push an image to a registry.
-● Sign an image in a registry.
-● Pull and delete images from a registry. 
+● [Describe the use of Dockerfile.]
+
+● [Describe options, such as add, copy, volumes, expose, entry point.]
+
+● [Identify and display the main parts of a Dockerfile.]
+
+● [Describe and demonstrate how to create an efficient image via a Dockerfile.]
+
+● [Describe and demonstrate how to use CLI commands to manage images, such as list, delete,
+prune, rmi.]
+
+● [Describe and demonstrate how to inspect images and report specific attributes using filter and
+format]
+
+● [Describe and demonstrate how to tag an image.]
+
+● [Describe and demonstrate how to apply a file to create a Docker image.]
+
+● [Describe and demonstrate how to display layers of a Docker image]
+
+● [Describe and demonstrate how to modify an image to a single layer.]
+
+● [Describe and demonstrate registry functions.]
+
+● [Deploy a registry.]
+
+● [Log into a registry.]
+
+● [Utilize search in a registry.]
+
+● [Push an image to a registry.]
+
+● [Sign an image in a registry.]
+
+● [Pull and delete images from a registry.]
 
 ### Domain 3: Installation and Configuration (15% of exam)
 Content may include the following:
 
-● Describe sizing requirements for installation.
-● Describe and demonstrate the setup of repo, selection of a storage driver, and
-installation of the Docker engine on multiple platforms.
-● Describe and demonstrate configuration of logging drivers (splunk, journald, etc.).
-● Describe and demonstrate how to set up swarm, configure managers, add nodes, and setup the
-backup schedule.
-● Describe and demonstrate how to create and manage user and teams.
-● Describe and demonstrate how to configure the Docker daemon to start on boot.
-● Describe and demonstrate how to use certificate-based client-server authentication to
-ensure a Docker daemon has the rights to access images on a registry.
-● Describe the use of namespaces, cgroups, and certificate configuration.
-● Describe and interpret errors to troubleshoot installation issues without assistance.
-● Describe and demonstrate the steps to deploy the Docker engine, UCP, and DTR
-on AWS and on-premises in an HA configuration.
-● Describe and demonstrate how to configure backups for UCP and DTR. 
+● [Describe sizing requirements for installation.]
+
+● [Describe and demonstrate the setup of repo, selection of a storage driver, and
+installation of the Docker engine on multiple platforms.]
+
+● [Describe and demonstrate configuration of logging drivers (splunk, journald, etc.).]
+
+● [Describe and demonstrate how to set up swarm, configure managers, add nodes, and setup the
+backup schedule.]
+
+● [Describe and demonstrate how to create and manage user and teams.]
+
+● [Describe and demonstrate how to configure the Docker daemon to start on boot.]
+
+● [Describe and demonstrate how to use certificate-based client-server authentication to
+ensure a Docker daemon has the rights to access images on a registry.]
+
+● [Describe the use of namespaces, cgroups, and certificate configuration.]
+
+● [Describe and interpret errors to troubleshoot installation issues without assistance.]
+
+● [Describe and demonstrate the steps to deploy the Docker engine, UCP, and DTR
+on AWS and on-premises in an HA configuration.]
+
+● [Describe and demonstrate how to configure backups for UCP and DTR.] 
 
 ### Domain 4: Networking (15% of exam)
 Content may include the following:
 
-● Describe the Container Network Model and how it interfaces with the Docker engine and network
-and IPAM drivers.
-● Describe the different types and use cases for the built-in network drivers.
-● Describe the types of traffic that flow between the Docker engine, registry and UCP
-controllers.
-● Describe and demonstrate how to create a Docker bridge network for developers to use for their
-containers.
-● Describe and demonstrate how to publish a port so that an application is accessible externally. 
-● Identify which IP and port a container is externally accessible on.
-● Compare and contrast “host” and “ingress” publishing modes.
-● Describe and demonstrate how to configure Docker to use external DNS.
-● Describe and demonstrate how to use Docker to load balance HTTP/HTTPs traffic to
-an application (Configure L7 load balancing with Docker EE).
-● Understand and describe the types of traffic that flow between the Docker engine,
-registry, and UCP controllers
-● Describe and demonstrate how to deploy a service on a Docker overlay network.
-● Describe and demonstrate how to troubleshoot container and engine logs to resolve connectivity
-issues between containers.
-● Describe how to route traffic to Kubernetes pods using ClusterIP and NodePort services.
-● Describe the Kubertnetes’ container network model. 
+● [Describe the Container Network Model and how it interfaces with the Docker engine and network
+and IPAM drivers.]
+
+● [Describe the different types and use cases for the built-in network drivers.]
+
+● [Describe the types of traffic that flow between the Docker engine, registry and UCP
+controllers.]
+
+● [Describe and demonstrate how to create a Docker bridge network for developers to use for their
+containers.]
+
+● [Describe and demonstrate how to publish a port so that an application is accessible externally.]
+
+● [Identify which IP and port a container is externally accessible on.]
+
+● [Compare and contrast “host” and “ingress” publishing modes.]
+
+● [Describe and demonstrate how to configure Docker to use external DNS.]
+
+● [Describe and demonstrate how to use Docker to load balance HTTP/HTTPs traffic to
+an application (Configure L7 load balancing with Docker EE).]
+
+● [Understand and describe the types of traffic that flow between the Docker engine,
+registry, and UCP controllers]
+
+● [Describe and demonstrate how to deploy a service on a Docker overlay network.]
+
+● [Describe and demonstrate how to troubleshoot container and engine logs to resolve connectivity
+issues between containers.]
+
+● [Describe how to route traffic to Kubernetes pods using ClusterIP and NodePort services.]
+
+● [Describe the Kubertnetes’ container network model.]
 
 ### Domain 5: Security (15% of exam)
 Content may include the following:
 
-● Describe security administration and tasks.
-● Describe the process of signing an image.
-● Describe default engine security.
-● Describe swarm default security.
-● Describe MTLS.
-● Describe identity roles.
-● Compare and contrast UCP workers and managers.
-● Describe the process to use external certificates with UCP and DTR.
-● Describe and demonstrate that an image passes a security scan.
-● Describe and demonstrate how to enable Docker Content Trust.
-● Describe and demonstrate how to configure RBAC with UCP.
-● Describe and demonstrate how to integrate UCP with LDAP/AD.
-● Describe and demonstrate how to create UCP client bundles.
+● [Describe security administration and tasks.]
+
+● [Describe the process of signing an image.]
+
+● [Describe default engine security.]
+
+● [Describe swarm default security.]
+
+● [Describe MTLS.]
+
+● [Describe identity roles.]
+
+● [Compare and contrast UCP workers and managers.]
+
+● [Describe the process to use external certificates with UCP and DTR.]
+
+● [Describe and demonstrate that an image passes a security scan.]
+
+● [Describe and demonstrate how to enable Docker Content Trust.]
+
+● [Describe and demonstrate how to configure RBAC with UCP.]
+
+● [Describe and demonstrate how to integrate UCP with LDAP/AD.]
+
+● [Describe and demonstrate how to create UCP client bundles.]
