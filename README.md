@@ -45,6 +45,8 @@ Note: You don't have to know about docker-machine. You can run multiple virtuali
 
 ● [Describe how a Dockerized application communicates with legacy systems.](https://docs.docker.com/network/macvlan/)
 
+----------------------------------------------------------------------------------------
+
 ● Describe how to deploy containerized workloads as Kubernetes pods and deployments.
 
   Kubernetes quickstart - https://kubernetes.io/docs/tutorials/kubernetes-basics/
@@ -52,6 +54,8 @@ Note: You don't have to know about docker-machine. You can run multiple virtuali
   Pods - https://kubernetes.io/docs/concepts/workloads/pods/pod/
   
   Deployments - https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
+  
+----------------------------------------------------------------------------------------
 
 ● Describe how to provide configuration to Kubernetes pods using [configMaps](https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/) and [secrets.](https://kubernetes.io/docs/concepts/configuration/secret/)
 
