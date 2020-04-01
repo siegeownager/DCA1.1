@@ -29,17 +29,17 @@ Note: You don't have to know about docker-machine. You can run multiple virtuali
 
 ---- TODO-----
 
-● [Describe and demonstrate orchestration activities.]
+● [Describe and demonstrate orchestration activities.](https://docs.docker.com/engine/reference/commandline/swarm/)
 
-● [Increase the number of replicas.]
+● [Increase the number of replicas.](https://docs.docker.com/engine/reference/commandline/service_scale/)
 
-● [Add networks, publish ports.]
+● [Add networks],(https://docs.docker.com/engine/reference/commandline/network_create/) [publish ports.](https://docs.docker.com/config/containers/container-networking/)
 
-● [Mount volumes.]
+● [Mount volumes.](https://docs.docker.com/storage/volumes/)
 
-● [Describe and demonstrate how to run replicated and global services.]
+● [Describe and demonstrate how to run replicated and global services.](https://docs.docker.com/engine/swarm/services/#replicated-or-global-services)
 
-● [Apply node labels to demonstrate placement of tasks.]
+● [Apply node labels](https://docs.docker.com/engine/reference/commandline/node_update/#add-label-metadata-to-a-node) to demonstrate [placement of tasks.](https://docs.docker.com/engine/reference/commandline/service_create/#specify-service-constraints---constraint)
 
 ● [Describe and demonstrate how to use templates with “docker service create”.]
 
