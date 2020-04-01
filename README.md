@@ -33,7 +33,7 @@ Note: You don't have to know about docker-machine. You can run multiple virtuali
 
 ● [Increase the number of replicas.](https://docs.docker.com/engine/reference/commandline/service_scale/)
 
-● [Add networks],(https://docs.docker.com/engine/reference/commandline/network_create/) [publish ports.](https://docs.docker.com/config/containers/container-networking/)
+● [Add networks,](https://docs.docker.com/engine/reference/commandline/network_create/) [publish ports.](https://docs.docker.com/config/containers/container-networking/)
 
 ● [Mount volumes.](https://docs.docker.com/storage/volumes/)
 
@@ -41,15 +41,18 @@ Note: You don't have to know about docker-machine. You can run multiple virtuali
 
 ● [Apply node labels](https://docs.docker.com/engine/reference/commandline/node_update/#add-label-metadata-to-a-node) to demonstrate [placement of tasks.](https://docs.docker.com/engine/reference/commandline/service_create/#specify-service-constraints---constraint)
 
-● [Describe and demonstrate how to use templates with “docker service create”.]
+● [Describe and demonstrate how to use templates with “docker service create”.](https://docs.docker.com/engine/reference/commandline/service_create/#create-services-using-templates)
 
-● [Identify the steps needed to troubleshoot a service not deploying.]
+● [Identify the steps needed to troubleshoot a service not deploying.](https://success.docker.com/article/swarm-troubleshooting-methodology)
 
-● [Describe how a Dockerized application communicates with legacy systems.]
+● [Describe how a Dockerized application communicates with legacy systems.](https://docs.docker.com/network/macvlan/)
 
-● [Describe how to deploy containerized workloads as Kubernetes pods and deployments.]
+● Describe how to deploy containerized workloads as Kubernetes pods and deployments.
+  Kubernetes quickstart - https://kubernetes.io/docs/tutorials/kubernetes-basics/
+  Pods - https://kubernetes.io/docs/concepts/workloads/pods/pod/
+  Deployments - https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
 
-● [Describe how to provide configuration to Kubernetes pods using configMaps and secrets.]
+● Describe how to provide configuration to Kubernetes pods using [configMaps](https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/) and [secrets.](https://kubernetes.io/docs/concepts/configuration/secret/)
 
 ### Domain 2: Image Creation, Management, and Registry (20% of exam)
 Content may include the following:
