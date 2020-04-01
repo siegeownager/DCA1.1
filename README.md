@@ -27,8 +27,6 @@ Note: You don't have to know about docker-machine. You can run multiple virtuali
 
 ● [Manipulate a running stack of services.](https://docs.docker.com/engine/reference/commandline/stack_services/#related-commands)
 
----- TODO-----
-
 ● [Describe and demonstrate orchestration activities.](https://docs.docker.com/engine/reference/commandline/swarm/)
 
 ● [Increase the number of replicas.](https://docs.docker.com/engine/reference/commandline/service_scale/)
@@ -48,8 +46,11 @@ Note: You don't have to know about docker-machine. You can run multiple virtuali
 ● [Describe how a Dockerized application communicates with legacy systems.](https://docs.docker.com/network/macvlan/)
 
 ● Describe how to deploy containerized workloads as Kubernetes pods and deployments.
+
   Kubernetes quickstart - https://kubernetes.io/docs/tutorials/kubernetes-basics/
+  
   Pods - https://kubernetes.io/docs/concepts/workloads/pods/pod/
+  
   Deployments - https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
 
 ● Describe how to provide configuration to Kubernetes pods using [configMaps](https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/) and [secrets.](https://kubernetes.io/docs/concepts/configuration/secret/)
