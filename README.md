@@ -45,7 +45,7 @@ Note: You don't have to know about docker-machine. You can run multiple virtuali
 
 ● [Describe how a Dockerized application communicates with legacy systems.](https://docs.docker.com/network/macvlan/)
 
-----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
 
 ● Describe how to deploy containerized workloads as Kubernetes pods and deployments.
 
@@ -55,26 +55,50 @@ Note: You don't have to know about docker-machine. You can run multiple virtuali
   
   Deployments - https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
   
-----------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
 
 ● Describe how to provide configuration to Kubernetes pods using [configMaps](https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/) and [secrets.](https://kubernetes.io/docs/concepts/configuration/secret/)
 
 ### Domain 2: Image Creation, Management, and Registry (20% of exam)
 Content may include the following:
 
-● [Describe the use of Dockerfile.]
+------------------------------------------------------------------------------------------------------------------------------
 
-● [Describe options, such as add, copy, volumes, expose, entry point.]
+● Describe the use of Dockerfile.
 
-● [Identify and display the main parts of a Dockerfile.]
+● Describe options, such as add, copy, volumes, expose, entry point.
 
-● [Describe and demonstrate how to create an efficient image via a Dockerfile.]
+● Identify and display the main parts of a Dockerfile.
+
+● Describe and demonstrate how to create an efficient image via a Dockerfile.
+
+Building & running an Image: https://docs.docker.com/get-started/part2/
+
+Complete Dockerfile reference: https://docs.docker.com/engine/reference/builder/
+
+Best practices: https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+
+------------------------------------------------------------------------------------------------------------------------------
 
 ● [Describe and demonstrate how to use CLI commands to manage images, such as list, delete,
-prune, rmi.]
+prune, rmi.](https://docs.docker.com/engine/reference/commandline/image/)
 
-● [Describe and demonstrate how to inspect images and report specific attributes using filter and
-format]
+------------------------------------------------------------------------------------------------------------------------------
+
+● Describe and demonstrate how to inspect images and report specific attributes using filter and
+format
+
+CLI command: https://docs.docker.com/engine/reference/commandline/image_inspect/
+
+Formatting the output: https://docs.docker.com/config/formatting/
+
+Filtering the output: https://docs.docker.com/config/formatting/
+
+Golang reference: https://golang.org/pkg/text/template/
+
+**NOTE**: You don't have to dive in-depth on any of these. Just know that they exist, and learn how to figure out what kind of output they may be grabbing (almost always self explanatory)
+
+------------------------------------------------------------------------------------------------------------------------------
 
 ● [Describe and demonstrate how to tag an image.]
 
