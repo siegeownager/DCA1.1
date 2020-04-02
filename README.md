@@ -89,7 +89,7 @@ Filtering the output: https://docs.docker.com/config/formatting/
 
 Golang reference: https://golang.org/pkg/text/template/
 
-**NOTE**: You don't have to dive in-depth on any of these. Just know that they exist, and learn how to figure out what kind of output they may be grabbing (almost always self explanatory)
+NOTE: You don't have to dive in-depth on any of these. Just know that they exist, and learn how to figure out what kind of output they may be grabbing (almost always self explanatory)
 ```
 
 
@@ -101,13 +101,15 @@ Golang reference: https://golang.org/pkg/text/template/
 ● [Describe and demonstrate how to display layers of a Docker image](https://docs.docker.com/engine/reference/commandline/history/)
 
 ```
-The `docker history` command is not exactly used for viewing the layers of an image, but roughly speaking, it's good enough for many cases.
+The `docker history` command is not exactly used for viewing the layers of an image, but roughly speaking, it's good enough 
+for many cases.
 
-The actual image layer storage location can be viewed with ```docker image inspect``` and then checking the directories under
+The actual image layer storage location can be viewed with `docker image inspect` and then checking the directories under
 'GraphDriver.Data' For example, on a Linux system with overlay2 configured as the filesystem, the directory structure will 
-look like /var/lib/docker/overlay2/xxxxxx. You don't need to know much here beyond knowing where it is found in the 
-filesystem. If you're curious to know more: https://www.freecodecamp.org/news/where-are-docker-images-stored-docker-container-
-paths-explained/
+look like `/var/lib/docker/overlay2/xxxxxx`. You don't need to know much here beyond knowing where it is found in the 
+filesystem. 
+If you're curious to know more: 
+https://www.freecodecamp.org/news/where-are-docker-images-stored-docker-container-paths-explained/
 ```
 
 
@@ -122,44 +124,39 @@ https://docs.docker.com/engine/reference/commandline/build/#squash-an-images-lay
 ------------------------------------------------------------------------------------------------------------------------------
 
 ● Describe and demonstrate registry functions.
-
+```
 https://docs.docker.com/registry/
 https://docs.docker.com/registry/introduction/
 
 'Registry' and 'Docker Trusted Registry' are related but separate concepts when it comes to the DCA.
+```
 
-------------------------------------------------------------------------------------------------------------------------------
 
 ● [Deploy a registry.](https://docs.docker.com/registry/deploying/)
 
 ● [Log into a registry.](https://docs.docker.com/engine/reference/commandline/login/)
 
-------------------------------------------------------------------------------------------------------------------------------
-
 ● Utilize search in a registry.
-
+```
 Docker Hub: https://docs.docker.com/engine/reference/commandline/search/
 
 Private registries: https://github.com/docker/distribution/blob/master/docs/spec/api.md
 From the second link, check out ```GET /v2/<name>/tags/list``` and ```GET /v2/_catalog```
   
 The API isn't important, just know that it exists and take a quick look at the various methods available to you.
-
-------------------------------------------------------------------------------------------------------------------------------
+```
 
 ● [Push an image to a registry.](https://docs.docker.com/engine/reference/commandline/push/)
 
 ● [Sign an image in a registry.](https://success.docker.com/article/introduction-to-docker-content-trust)
 
-------------------------------------------------------------------------------------------------------------------------------
-
 ● Pull and delete images from a registry.
-
+```
 Pull: https://docs.docker.com/engine/reference/commandline/pull/
 
 Delete: https://github.com/docker/distribution/blob/master/docs/spec/api.md#deleting-an-image
+```
 
-------------------------------------------------------------------------------------------------------------------------------
 
 ### Domain 3: Installation and Configuration (15% of exam)
 Content may include the following:
