@@ -66,11 +66,11 @@ Content may include the following:
 
 ● Describe and demonstrate how to create an efficient image via a Dockerfile.
 
->[Building & running an Image](https://docs.docker.com/get-started/part2/)
+    - [Building & running an Image](https://docs.docker.com/get-started/part2/)
 
->[Complete Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+    - [Complete Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
 
->[Best practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+    - [Best practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 
 ------------------------------------------------------------------------------------------------------------------------------
 
