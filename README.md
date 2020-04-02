@@ -77,24 +77,20 @@ Content may include the following:
 ● [Describe and demonstrate how to use CLI commands to manage images, such as list, delete,
 prune, rmi.](https://docs.docker.com/engine/reference/commandline/image/)
 
-------------------------------------------------------------------------------------------------------------------------------
-
 ● Describe and demonstrate how to inspect images and report specific attributes using filter and
 format
 
+  - [CLI command](https://docs.docker.com/engine/reference/commandline/image_inspect/)
 
-[CLI command](https://docs.docker.com/engine/reference/commandline/image_inspect/)
+  - [Formatting the output](https://docs.docker.com/config/formatting/)
 
-[Formatting the output](https://docs.docker.com/config/formatting/)
+  - [Filtering the output](https://docs.docker.com/config/formatting/)
 
-[Filtering the output](https://docs.docker.com/config/formatting/)
-
-[Golang reference](https://golang.org/pkg/text/template/)
+  - [Golang reference](https://golang.org/pkg/text/template/)
 
 ```
 NOTE: You don't have to dive in-depth on any of these. Just know that they exist, and learn how to figure out what kind of output they may be grabbing (almost always self explanatory)
 ```
-------------------------------------------------------------------------------------------------------------------------------
 
 ● [Describe and demonstrate how to tag an image.](https://docs.docker.com/engine/reference/commandline/tag/)
 
@@ -116,17 +112,18 @@ https://www.freecodecamp.org/news/where-are-docker-images-stored-docker-containe
 
 ● Describe and demonstrate how to modify an image to a single layer.
 
-[Old export/import method](https://forums.docker.com/t/how-to-flatten-an-image-with-127-parents/1600)
+  - [Old export/import method](https://forums.docker.com/t/how-to-flatten-an-image-with-127-parents/1600)
 
-[Experimental squash flag](https://docs.docker.com/engine/reference/commandline/build/#squash-an-images-layers-squash-experimental-only)
+  - [Experimental squash flag](https://docs.docker.com/engine/reference/commandline/build/#squash-an-images-layers-squash-experimental-only)
 
 ------------------------------------------------------------------------------------------------------------------------------
 
 ● Describe and demonstrate registry functions.
-```
-https://docs.docker.com/registry/
-https://docs.docker.com/registry/introduction/
 
+  - https://docs.docker.com/registry/
+  - https://docs.docker.com/registry/introduction/
+
+```
 'Registry' and 'Docker Trusted Registry' are related but separate concepts when it comes to the DCA.
 ```
 
@@ -135,6 +132,7 @@ https://docs.docker.com/registry/introduction/
 ● [Log into a registry.](https://docs.docker.com/engine/reference/commandline/login/)
 
 ● Utilize search in a registry.
+
 ```
 Docker Hub: https://docs.docker.com/engine/reference/commandline/search/
 
@@ -149,12 +147,12 @@ The API isn't important, just know that it exists and take a quick look at the v
 ● [Sign an image in a registry.](https://success.docker.com/article/introduction-to-docker-content-trust)
 
 ● Pull and delete images from a registry.
+
 ```
 Pull: https://docs.docker.com/engine/reference/commandline/pull/
 
 Delete: https://github.com/docker/distribution/blob/master/docs/spec/api.md#deleting-an-image
 ```
-
 
 ### Domain 3: Installation and Configuration (15% of exam)
 Content may include the following:
