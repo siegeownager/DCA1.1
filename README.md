@@ -144,6 +144,8 @@ Docker Hub: https://docs.docker.com/engine/reference/commandline/search/
 
 Private registries: https://github.com/docker/distribution/blob/master/docs/spec/api.md
 From the second link, check out GET /v2/<name>/tags/list and GET /v2/_catalog
+  
+The API isn't important, just know that it exists and take a quick look at the various methods available to you.
 
 ------------------------------------------------------------------------------------------------------------------------------
 
@@ -164,7 +166,17 @@ Delete: https://github.com/docker/distribution/blob/master/docs/spec/api.md#dele
 ### Domain 3: Installation and Configuration (15% of exam)
 Content may include the following:
 
-● [Describe sizing requirements for installation.]
+------------------------------------------------------------------------------------------------------------------------------
+
+● Describe sizing requirements for installation.
+
+UCP: https://docs.docker.com/ee/ucp/admin/install/system-requirements/
+
+DTR: https://docs.docker.com/ee/dtr/admin/install/system-requirements/
+
+Docker Engine: https://docs.docker.com/install/
+
+------------------------------------------------------------------------------------------------------------------------------
 
 ● [Describe and demonstrate the setup of repo, selection of a storage driver, and
 installation of the Docker engine on multiple platforms.]
