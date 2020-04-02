@@ -101,9 +101,13 @@ Golang reference: https://golang.org/pkg/text/template/
 ● [Describe and demonstrate how to display layers of a Docker image](https://docs.docker.com/engine/reference/commandline/history/)
 
 ```
-The ```docker history``` command is not exactly used for viewing the layers of an image, but roughly speaking, it's good enough for many cases.
+The `docker history` command is not exactly used for viewing the layers of an image, but roughly speaking, it's good enough for many cases.
 
-The actual image layer storage location can be viewed with ```docker image inspect``` and then checking the directories under 'GraphDriver.Data' For example, on a Linux system with overlay2 configured as the filesystem, the directory structure will look like /var/lib/docker/overlay2/xxxxxx. You don't need to know much here beyond knowing where it is found in the filesystem. If you're curious to know more: https://www.freecodecamp.org/news/where-are-docker-images-stored-docker-container-paths-explained/
+The actual image layer storage location can be viewed with ```docker image inspect``` and then checking the directories under
+'GraphDriver.Data' For example, on a Linux system with overlay2 configured as the filesystem, the directory structure will 
+look like /var/lib/docker/overlay2/xxxxxx. You don't need to know much here beyond knowing where it is found in the 
+filesystem. If you're curious to know more: https://www.freecodecamp.org/news/where-are-docker-images-stored-docker-container-
+paths-explained/
 ```
 
 
