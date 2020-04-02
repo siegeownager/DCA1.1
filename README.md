@@ -47,17 +47,9 @@ Note: You don't have to know about docker-machine. You can run multiple virtuali
 
 ● [Describe how a Dockerized application communicates with legacy systems.](https://docs.docker.com/network/macvlan/)
 
-------------------------------------------------------------------------------------------------------------------------------
+● Describe how to deploy containerized workloads as Kubernetes [pods](https://kubernetes.io/docs/concepts/workloads/pods/pod/) and [deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/).
 
-● Describe how to deploy containerized workloads as Kubernetes pods and deployments.
-
-  Kubernetes quickstart - https://kubernetes.io/docs/tutorials/kubernetes-basics/
-  
-  Pods - https://kubernetes.io/docs/concepts/workloads/pods/pod/
-  
-  Deployments - https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
-  
-------------------------------------------------------------------------------------------------------------------------------
+  >Kubernetes quickstart - https://kubernetes.io/docs/tutorials/kubernetes-basics/
 
 ● Describe how to provide configuration to Kubernetes pods using [configMaps](https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/) and [secrets.](https://kubernetes.io/docs/concepts/configuration/secret/)
 
@@ -121,7 +113,8 @@ The actual image layer storage location can be viewed with ```docker image inspe
 The old way to do it was to use docker export and docker import.
 https://forums.docker.com/t/how-to-flatten-an-image-with-127-parents/1600
 
-The newer way (still experimental) is to use the ```--squash``` flag. https://docs.docker.com/engine/reference/commandline/build/#squash-an-images-layers-squash-experimental-only
+The newer way (still experimental) is to use the ```--squash``` flag. 
+https://docs.docker.com/engine/reference/commandline/build/#squash-an-images-layers-squash-experimental-only
 
 ------------------------------------------------------------------------------------------------------------------------------
 
@@ -145,7 +138,7 @@ https://docs.docker.com/registry/introduction/
 Docker Hub: https://docs.docker.com/engine/reference/commandline/search/
 
 Private registries: https://github.com/docker/distribution/blob/master/docs/spec/api.md
-From the second link, check out GET /v2/<name>/tags/list and GET /v2/_catalog
+From the second link, check out ```GET /v2/<name>/tags/list``` and ```GET /v2/_catalog```
   
 The API isn't important, just know that it exists and take a quick look at the various methods available to you.
 
@@ -214,12 +207,16 @@ on AWS and on-premises in an HA configuration.]
 
 Docker EE engine (installation guides based on OS near the bottom of the page): https://docs.docker.com/ee/supported-platforms/
 
-### UCP:
+**UCP:**
+
 On-premise: https://docs.docker.com/ee/ucp/admin/install/
+
 AWS: https://docs.docker.com/ee/ucp/admin/install/cloudproviders/install-on-aws/
 
-### DTR:
+**DTR:**
+
 Install: https://docs.docker.com/ee/dtr/admin/install/
+
 Store images on S3: https://docs.docker.com/ee/dtr/admin/configure/external-storage/s3/
 
 ------------------------------------------------------------------------------------------------------------------------------
