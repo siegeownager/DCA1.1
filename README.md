@@ -100,13 +100,30 @@ Golang reference: https://golang.org/pkg/text/template/
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-● [Describe and demonstrate how to tag an image.]
+● [Describe and demonstrate how to tag an image.](https://docs.docker.com/engine/reference/commandline/tag/)
 
-● [Describe and demonstrate how to apply a file to create a Docker image.]
+● [Describe and demonstrate how to apply a file to create a Docker image.](https://docs.docker.com/engine/reference/commandline/build/)
 
-● [Describe and demonstrate how to display layers of a Docker image]
+------------------------------------------------------------------------------------------------------------------------------
 
-● [Describe and demonstrate how to modify an image to a single layer.]
+● [Describe and demonstrate how to display layers of a Docker image](https://docs.docker.com/engine/reference/commandline/history/)
+
+The ```docker history``` command is not exactly used for viewing the layers of an image, but roughly speaking, it's good enough for many cases.
+
+The actual image layer storage location can be viewed with ```docker image inspect``` and then checking the directories under 'GraphDriver.Data' For example, on a Linux system with overlay2 configured as the filesystem, the directory structure will look like /var/lib/docker/overlay2/xxxxxx. You don't need to know much here beyond knowing where it is found in the filesystem.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------
+
+● Describe and demonstrate how to modify an image to a single layer.
+
+The old way to do it was to use docker export and docker import.
+https://forums.docker.com/t/how-to-flatten-an-image-with-127-parents/1600
+
+The newer way (still experimental) is to use the ```--squash``` flag. https://docs.docker.com/engine/reference/commandline/build/#squash-an-images-layers-squash-experimental-only
+
+------------------------------------------------------------------------------------------------------------------------------
 
 ● [Describe and demonstrate registry functions.]
 
