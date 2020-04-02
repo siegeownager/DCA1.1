@@ -15,7 +15,7 @@ Content may include the following:
 
 ● [Complete the setup of a swarm mode cluster, with managers and worker nodes](https://docs.docker.com/engine/swarm/swarm-tutorial/)
 
-Note: You don't have to know about docker-machine. You can run multiple virtualized nodes in other ways if needed.
+>Note: You don't have to know about docker-machine. You can run multiple virtualized nodes in other ways if needed.
 
 ● [Describe and demonstrate how to extend the instructions to run individual containers into running services under swarm.](https://docs.docker.com/engine/swarm/services/)
 
@@ -65,23 +65,22 @@ Content may include the following:
 ● Identify and display the main parts of a Dockerfile.
 
 ● Describe and demonstrate how to create an efficient image via a Dockerfile.
-
+```
 Building & running an Image: https://docs.docker.com/get-started/part2/
 
 Complete Dockerfile reference: https://docs.docker.com/engine/reference/builder/
 
 Best practices: https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
-
+```
 ------------------------------------------------------------------------------------------------------------------------------
 
 ● [Describe and demonstrate how to use CLI commands to manage images, such as list, delete,
 prune, rmi.](https://docs.docker.com/engine/reference/commandline/image/)
 
-------------------------------------------------------------------------------------------------------------------------------
-
 ● Describe and demonstrate how to inspect images and report specific attributes using filter and
 format
 
+```
 CLI command: https://docs.docker.com/engine/reference/commandline/image_inspect/
 
 Formatting the output: https://docs.docker.com/config/formatting/
@@ -91,22 +90,22 @@ Filtering the output: https://docs.docker.com/config/formatting/
 Golang reference: https://golang.org/pkg/text/template/
 
 **NOTE**: You don't have to dive in-depth on any of these. Just know that they exist, and learn how to figure out what kind of output they may be grabbing (almost always self explanatory)
+```
 
-------------------------------------------------------------------------------------------------------------------------------
 
 ● [Describe and demonstrate how to tag an image.](https://docs.docker.com/engine/reference/commandline/tag/)
 
 ● [Describe and demonstrate how to apply a file to create a Docker image.](https://docs.docker.com/engine/reference/commandline/build/)
 
-------------------------------------------------------------------------------------------------------------------------------
 
 ● [Describe and demonstrate how to display layers of a Docker image](https://docs.docker.com/engine/reference/commandline/history/)
 
+```
 The ```docker history``` command is not exactly used for viewing the layers of an image, but roughly speaking, it's good enough for many cases.
 
 The actual image layer storage location can be viewed with ```docker image inspect``` and then checking the directories under 'GraphDriver.Data' For example, on a Linux system with overlay2 configured as the filesystem, the directory structure will look like /var/lib/docker/overlay2/xxxxxx. You don't need to know much here beyond knowing where it is found in the filesystem. If you're curious to know more: https://www.freecodecamp.org/news/where-are-docker-images-stored-docker-container-paths-explained/
+```
 
-------------------------------------------------------------------------------------------------------------------------------
 
 ● Describe and demonstrate how to modify an image to a single layer.
 
