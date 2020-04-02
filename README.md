@@ -114,8 +114,6 @@ The actual image layer storage location can be viewed with ```docker image inspe
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------------------------------------------------------------
-
 ● Describe and demonstrate how to modify an image to a single layer.
 
 The old way to do it was to use docker export and docker import.
@@ -125,19 +123,42 @@ The newer way (still experimental) is to use the ```--squash``` flag. https://do
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-● [Describe and demonstrate registry functions.]
+● Describe and demonstrate registry functions.
 
-● [Deploy a registry.]
+https://docs.docker.com/registry/
+https://docs.docker.com/registry/introduction/
 
-● [Log into a registry.]
+'Registry' and 'Docker Trusted Registry' are related but separate concepts when it comes to the DCA.
 
-● [Utilize search in a registry.]
+------------------------------------------------------------------------------------------------------------------------------
 
-● [Push an image to a registry.]
+● [Deploy a registry.](https://docs.docker.com/registry/deploying/)
 
-● [Sign an image in a registry.]
+● [Log into a registry.](https://docs.docker.com/engine/reference/commandline/login/)
 
-● [Pull and delete images from a registry.]
+------------------------------------------------------------------------------------------------------------------------------
+
+● Utilize search in a registry.
+
+Docker Hub: https://docs.docker.com/engine/reference/commandline/search/
+
+Private registries: https://github.com/docker/distribution/blob/master/docs/spec/api.md#deleting-an-image
+
+------------------------------------------------------------------------------------------------------------------------------
+
+● [Push an image to a registry.](https://docs.docker.com/engine/reference/commandline/push/)
+
+● [Sign an image in a registry.](https://success.docker.com/article/introduction-to-docker-content-trust)
+
+------------------------------------------------------------------------------------------------------------------------------
+
+● Pull and delete images from a registry.
+
+Pull: https://docs.docker.com/engine/reference/commandline/pull/
+
+Delete: https://github.com/docker/distribution/blob/master/docs/spec/api.md#deleting-an-image
+
+------------------------------------------------------------------------------------------------------------------------------
 
 ### Domain 3: Installation and Configuration (15% of exam)
 Content may include the following:
