@@ -6,6 +6,8 @@ Two important points regarding this exam that I feel are essential to be declare
 
 In this initial version, I plan to only provide quicklinks to what is present in the study guide without expanding on what other knowledge may be essential for getting a passing grade on the exam. 
 
+Before trying to tackle the study guide, it may help immensely to read ['Docker Deep Dive'](https://www.amazon.com/Docker-Deep-Dive-Nigel-Poulton-ebook/dp/B01LXWQUFF) by Nigel Poulton. Book is about 2 years old and a few things have changed since then, but for core knowledge as well as an easier introduction to Docker Enterprise Edition, this is the best resource I am aware of.
+
 ## Examination Domains
 
 ### Domain 1: Orchestration (25% of exam)
@@ -178,29 +180,51 @@ Docker Engine: https://docs.docker.com/install/
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-● [Describe and demonstrate the setup of repo, selection of a storage driver, and
-installation of the Docker engine on multiple platforms.]
+● Describe and demonstrate the setup of repo, selection of a storage driver, and
+installation of the Docker engine on multiple platforms.
 
-● [Describe and demonstrate configuration of logging drivers (splunk, journald, etc.).]
+Depending on the OS, the installation method varies: https://docs.docker.com/search/?q=Docker%20Engine%20-%20Community
+
+Storage drivers: https://docs.docker.com/storage/storagedriver/select-storage-driver/
+
+While you should know the pros/cons of each type of storage driver, the most important ones to read about are overlay2 and device-mapper. You don't need to bother with learning how to configure the others. You don't need to know exactly how to configure device-mapper in direct-lvm mode but you need to know about the various options that exist and how it compares with loopback-lvm.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+● [Describe and demonstrate configuration of logging drivers (splunk, journald, etc.).](https://docs.docker.com/config/containers/logging/configure/)
 
 ● [Describe and demonstrate how to set up swarm, configure managers, add nodes, and setup the
-backup schedule.]
+backup schedule.](https://docs.docker.com/engine/swarm/admin_guide/)
 
-● [Describe and demonstrate how to create and manage user and teams.]
+● [Describe and demonstrate how to create and manage user and teams.](https://docs.docker.com/ee/ucp/authorization/create-users-and-teams-manually/)
 
-● [Describe and demonstrate how to configure the Docker daemon to start on boot.]
+● [Describe and demonstrate how to configure the Docker daemon to start on boot.](https://docs.docker.com/install/linux/linux-postinstall/#configure-docker-to-start-on-boot)
 
 ● [Describe and demonstrate how to use certificate-based client-server authentication to
-ensure a Docker daemon has the rights to access images on a registry.]
+ensure a Docker daemon has the rights to access images on a registry.](https://docs.docker.com/engine/security/certificates/)
 
-● [Describe the use of namespaces, cgroups, and certificate configuration.]
+● [Describe the use of namespaces, cgroups,](https://docs.docker.com/engine/docker-overview/) and [certificate configuration.](https://docs.docker.com/engine/security/https/)
 
-● [Describe and interpret errors to troubleshoot installation issues without assistance.]
+● [Describe and interpret errors to troubleshoot installation issues without assistance.](https://docs.docker.com/config/daemon/)
+
+------------------------------------------------------------------------------------------------------------------------------
 
 ● [Describe and demonstrate the steps to deploy the Docker engine, UCP, and DTR
 on AWS and on-premises in an HA configuration.]
 
-● [Describe and demonstrate how to configure backups for UCP and DTR.] 
+Docker EE engine (installation guides based on OS near the bottom of the page): https://docs.docker.com/ee/supported-platforms/
+
+### UCP:
+On-premise: https://docs.docker.com/ee/ucp/admin/install/
+AWS: https://docs.docker.com/ee/ucp/admin/install/cloudproviders/install-on-aws/
+
+### DTR:
+Install: https://docs.docker.com/ee/dtr/admin/install/
+Store images on S3: https://docs.docker.com/ee/dtr/admin/configure/external-storage/s3/
+
+------------------------------------------------------------------------------------------------------------------------------
+
+● Describe and demonstrate how to configure backups for [UCP](https://docs.docker.com/ee/admin/backup/back-up-ucp/) and [DTR.](https://docs.docker.com/ee/admin/backup/back-up-dtr/)
 
 ### Domain 4: Networking (15% of exam)
 Content may include the following:
