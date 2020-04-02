@@ -65,38 +65,40 @@ Content may include the following:
 ● Identify and display the main parts of a Dockerfile.
 
 ● Describe and demonstrate how to create an efficient image via a Dockerfile.
-```
-Building & running an Image: https://docs.docker.com/get-started/part2/
 
-Complete Dockerfile reference: https://docs.docker.com/engine/reference/builder/
+>[Building & running an Image](https://docs.docker.com/get-started/part2/)
 
-Best practices: https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
-```
+>[Complete Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
+
+>[Best practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+
 ------------------------------------------------------------------------------------------------------------------------------
 
 ● [Describe and demonstrate how to use CLI commands to manage images, such as list, delete,
 prune, rmi.](https://docs.docker.com/engine/reference/commandline/image/)
 
+------------------------------------------------------------------------------------------------------------------------------
+
 ● Describe and demonstrate how to inspect images and report specific attributes using filter and
 format
 
+
+[CLI command](https://docs.docker.com/engine/reference/commandline/image_inspect/)
+
+[Formatting the output](https://docs.docker.com/config/formatting/)
+
+[Filtering the output](https://docs.docker.com/config/formatting/)
+
+[Golang reference](https://golang.org/pkg/text/template/)
+
 ```
-CLI command: https://docs.docker.com/engine/reference/commandline/image_inspect/
-
-Formatting the output: https://docs.docker.com/config/formatting/
-
-Filtering the output: https://docs.docker.com/config/formatting/
-
-Golang reference: https://golang.org/pkg/text/template/
-
 NOTE: You don't have to dive in-depth on any of these. Just know that they exist, and learn how to figure out what kind of output they may be grabbing (almost always self explanatory)
 ```
-
+------------------------------------------------------------------------------------------------------------------------------
 
 ● [Describe and demonstrate how to tag an image.](https://docs.docker.com/engine/reference/commandline/tag/)
 
 ● [Describe and demonstrate how to apply a file to create a Docker image.](https://docs.docker.com/engine/reference/commandline/build/)
-
 
 ● [Describe and demonstrate how to display layers of a Docker image](https://docs.docker.com/engine/reference/commandline/history/)
 
@@ -112,14 +114,11 @@ If you're curious to know more:
 https://www.freecodecamp.org/news/where-are-docker-images-stored-docker-container-paths-explained/
 ```
 
-
 ● Describe and demonstrate how to modify an image to a single layer.
 
-The old way to do it was to use docker export and docker import.
-https://forums.docker.com/t/how-to-flatten-an-image-with-127-parents/1600
+[Old export/import method](https://forums.docker.com/t/how-to-flatten-an-image-with-127-parents/1600)
 
-The newer way (still experimental) is to use the ```--squash``` flag. 
-https://docs.docker.com/engine/reference/commandline/build/#squash-an-images-layers-squash-experimental-only
+[Experimental squash flag](https://docs.docker.com/engine/reference/commandline/build/#squash-an-images-layers-squash-experimental-only)
 
 ------------------------------------------------------------------------------------------------------------------------------
 
@@ -130,7 +129,6 @@ https://docs.docker.com/registry/introduction/
 
 'Registry' and 'Docker Trusted Registry' are related but separate concepts when it comes to the DCA.
 ```
-
 
 ● [Deploy a registry.](https://docs.docker.com/registry/deploying/)
 
