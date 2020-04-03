@@ -246,7 +246,18 @@ containers.](https://docs.docker.com/network/bridge/)
 
 ● [Compare and contrast “host” and “ingress” publishing modes.](https://docs.docker.com/engine/swarm/ingress/)
 
-● [Describe and demonstrate how to configure Docker to use external DNS.]
+● Describe and demonstrate how to configure Docker to use external DNS.
+
+There are three ways to do this:
+
+  - Add the 'dns' property in /etc/daemon.json
+
+  - Start the dockerd process with the necessary value passed to the dns flag
+  
+  - Set it on a per-container basis
+ 
+https://docs.docker.com/engine/reference/commandline/dockerd/
+https://docs.docker.com/config/containers/container-networking/#published-ports#dns-services
 
 ● [Describe and demonstrate how to use Docker to load balance HTTP/HTTPs traffic to
 an application (Configure L7 load balancing with Docker EE).]
