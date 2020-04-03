@@ -162,7 +162,9 @@ Content may include the following:
 ● Describe and demonstrate the setup of repo, selection of a storage driver, and
 installation of the Docker engine on multiple platforms.
 
-  - Depending on the OS, the installation method varies: https://docs.docker.com/search/?q=Docker%20Engine%20-%20Community
+  - Depending on the OS, the installation method varies: 
+  
+    https://docs.docker.com/search/?q=Docker%20Engine%20-%20Community
 
   - [Storage drivers](https://docs.docker.com/storage/storagedriver/select-storage-driver/)
 
@@ -187,7 +189,9 @@ ensure a Docker daemon has the rights to access images on a registry.](https://d
 ● Describe and demonstrate the steps to deploy the Docker engine, UCP, and DTR
 on AWS and on-premises in an HA configuration.
 
-Docker EE engine (installation guides based on OS near the bottom of the page): https://docs.docker.com/ee/supported-platforms/
+Docker EE engine (installation guides based on OS near the bottom of the page): 
+
+https://docs.docker.com/ee/supported-platforms/
 
 **UCP:**
 
