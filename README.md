@@ -56,6 +56,8 @@ Content may include the following:
 ### Domain 2: Image Creation, Management, and Registry (20% of exam)
 Content may include the following:
 
+------------------------------------------------------------------------------------------------------------------------------
+
 ● Describe the use of Dockerfile.
 
 ● Describe options, such as add, copy, volumes, expose, entry point.
@@ -69,6 +71,8 @@ Content may include the following:
    - [Complete Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
 
    - [Best practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+   
+------------------------------------------------------------------------------------------------------------------------------
 
 ● [Describe and demonstrate how to use CLI commands to manage images, such as list, delete,
 prune, rmi.](https://docs.docker.com/engine/reference/commandline/image/)
@@ -97,8 +101,8 @@ format
 ```The actual image layer storage location can be viewed with `docker image inspect` and then checking the directories under
 'GraphDriver.Data' For example, on a Linux system with overlay2 configured as the filesystem, the directory structure will 
 look like `/var/lib/docker/overlay2/xxxxxx`. You don't need to know much here beyond knowing where it is found in the 
-filesystem. If you're curious to know more: 
-https://www.freecodecamp.org/news/where-are-docker-images-stored-docker-container-paths-explained/```
+filesystem. If you're curious to know more:```
+https://www.freecodecamp.org/news/where-are-docker-images-stored-docker-container-paths-explained/
 
 ● Describe and demonstrate how to modify an image to a single layer.
 
