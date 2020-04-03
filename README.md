@@ -15,7 +15,7 @@ Content may include the following:
 
 ● [Complete the setup of a swarm mode cluster, with managers and worker nodes](https://docs.docker.com/engine/swarm/swarm-tutorial/)
 
->Note: You don't have to know about docker-machine. You can run multiple virtualized nodes in other ways if needed.
+  - Note: You don't have to know about docker-machine. You can run multiple virtualized nodes in other ways if needed.
 
 ● [Describe and demonstrate how to extend the instructions to run individual containers into running services under swarm.](https://docs.docker.com/engine/swarm/services/)
 
@@ -49,7 +49,7 @@ Content may include the following:
 
 ● Describe how to deploy containerized workloads as Kubernetes [pods](https://kubernetes.io/docs/concepts/workloads/pods/pod/) and [deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/).
 
-  >Kubernetes quickstart - https://kubernetes.io/docs/tutorials/kubernetes-basics/
+  - Kubernetes quickstart - https://kubernetes.io/docs/tutorials/kubernetes-basics/
 
 ● Describe how to provide configuration to Kubernetes pods using [configMaps](https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/) and [secrets.](https://kubernetes.io/docs/concepts/configuration/secret/)
 
