@@ -137,7 +137,7 @@ https://www.freecodecamp.org/news/where-are-docker-images-stored-docker-containe
 Docker Hub: https://docs.docker.com/engine/reference/commandline/search/
 
 Private registries: https://github.com/docker/distribution/blob/master/docs/spec/api.md
-From the second link, check out ```GET /v2/<name>/tags/list``` and ```GET /v2/_catalog```
+From the second link, check out `GET /v2/<name>/tags/list` and `GET /v2/_catalog`
   
 The API isn't important, just know that it exists and take a quick look at the various methods available to you.
 ```
@@ -233,7 +233,9 @@ controllers.
 Familiarize yourself with the networks and ports relevant to each of these as well as have an idea about how they work at a high level.
 
 https://docs.docker.com/ee/ucp/ucp-architecture/
+
 https://docs.docker.com/ee/ucp/admin/install/system-requirements/ 
+
 https://docs.docker.com/ee/dtr/architecture/
 
 
@@ -257,20 +259,27 @@ There are three ways to do this:
   - Set it on a per-container basis
  
 https://docs.docker.com/engine/reference/commandline/dockerd/
+
 https://docs.docker.com/config/containers/container-networking/#published-ports#dns-services
 
 ● [Describe and demonstrate how to use Docker to load balance HTTP/HTTPs traffic to
-an application (Configure L7 load balancing with Docker EE).]
+an application (Configure L7 load balancing with Docker EE).](https://docs.docker.com/ee/ucp/interlock/)
 
-● [Understand and describe the types of traffic that flow between the Docker engine,
-registry, and UCP controllers]
+The interlock configuration is done through the UCP Web UI
 
-● [Describe and demonstrate how to deploy a service on a Docker overlay network.]
+● [Describe and demonstrate how to deploy a service on a Docker overlay network.](https://docs.docker.com/engine/swarm/services/#connect-the-service-to-an-overlay-network#connect-the-service-to-an-overlay-network)
 
-● [Describe and demonstrate how to troubleshoot container and engine logs to resolve connectivity
-issues between containers.]
+● Describe and demonstrate how to troubleshoot [container](https://docs.docker.com/engine/reference/commandline/logs/) and [engine](https://docs.docker.com/config/daemon/) logs to resolve connectivity issues between containers.
 
-● [Describe how to route traffic to Kubernetes pods using ClusterIP and NodePort services.]
+● Describe how to route traffic to Kubernetes pods using ClusterIP and NodePort services.
+
+https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/
+
+https://kubernetes.io/docs/concepts/services-networking/service/
+
+```ClusterIP: Exposes the Service on a cluster-internal IP. Choosing this value makes the Service only reachable from within the cluster. This is the default ServiceType.```
+
+```NodePort: Exposes the Service on each Node’s IP at a static port (the NodePort). A ClusterIP Service, to which the NodePort Service routes, is automatically created. You’ll be able to contact the NodePort Service, from outside the cluster, by requesting <NodeIP>:<NodePort>.```
 
 ● [Describe the Kubertnetes’ container network model.]
 
