@@ -190,8 +190,6 @@ ensure a Docker daemon has the rights to access images on a registry.](https://d
 
 ● [Describe and interpret errors to troubleshoot installation issues without assistance.](https://docs.docker.com/config/daemon/)
 
-------------------------------------------------------------------------------------------------------------------------------
-
 ● [Describe and demonstrate the steps to deploy the Docker engine, UCP, and DTR
 on AWS and on-premises in an HA configuration.]
 
@@ -199,17 +197,15 @@ Docker EE engine (installation guides based on OS near the bottom of the page): 
 
 **UCP:**
 
-On-premise: https://docs.docker.com/ee/ucp/admin/install/
+[On-premise](https://docs.docker.com/ee/ucp/admin/install/)
 
-AWS: https://docs.docker.com/ee/ucp/admin/install/cloudproviders/install-on-aws/
+[AWS](https://docs.docker.com/ee/ucp/admin/install/cloudproviders/install-on-aws/)
 
 **DTR:**
 
-Install: https://docs.docker.com/ee/dtr/admin/install/
+[Install](https://docs.docker.com/ee/dtr/admin/install/)
 
-Store images on S3: https://docs.docker.com/ee/dtr/admin/configure/external-storage/s3/
-
-------------------------------------------------------------------------------------------------------------------------------
+[Store images on S3](https://docs.docker.com/ee/dtr/admin/configure/external-storage/s3/)
 
 ● Describe and demonstrate how to configure backups for [UCP](https://docs.docker.com/ee/admin/backup/back-up-ucp/) and [DTR.](https://docs.docker.com/ee/admin/backup/back-up-dtr/)
 
@@ -226,11 +222,11 @@ controllers.
 
 Familiarize yourself with the networks and ports relevant to each of these as well as have an idea about how they work at a high level.
 
-https://docs.docker.com/ee/ucp/ucp-architecture/
+  - https://docs.docker.com/ee/ucp/ucp-architecture/
 
-https://docs.docker.com/ee/ucp/admin/install/system-requirements/ 
+  - https://docs.docker.com/ee/ucp/admin/install/system-requirements/ 
 
-https://docs.docker.com/ee/dtr/architecture/
+  - https://docs.docker.com/ee/dtr/architecture/
 
 
 ● [Describe and demonstrate how to create a Docker bridge network for developers to use for their
@@ -246,15 +242,11 @@ containers.](https://docs.docker.com/network/bridge/)
 
 There are three ways to do this:
 
-  - Add the 'dns' property in /etc/daemon.json
+  - [Add the 'dns' property in /etc/daemon.json](https://docs.docker.com/engine/reference/commandline/dockerd/#daemon-configuration-file)
 
-  - Start the dockerd process with the necessary value passed to the dns flag
+  - [Start the dockerd process with the necessary value passed to the dns flag](https://docs.docker.com/engine/reference/commandline/dockerd/#daemon-dns-options)
   
-  - Set it on a per-container basis
- 
-https://docs.docker.com/engine/reference/commandline/dockerd/
-
-https://docs.docker.com/config/containers/container-networking/#published-ports#dns-services
+  - [Set it on a per-container basis](https://docs.docker.com/config/containers/container-networking/#published-ports#dns-services)
 
 ● [Describe and demonstrate how to use Docker to load balance HTTP/HTTPs traffic to
 an application (Configure L7 load balancing with Docker EE).](https://docs.docker.com/ee/ucp/interlock/)
