@@ -15,7 +15,7 @@ Content may include the following:
 
 ● [Complete the setup of a swarm mode cluster, with managers and worker nodes](https://docs.docker.com/engine/swarm/swarm-tutorial/)
 
-  - Note: You don't have to know about docker-machine. You can run multiple virtualized nodes in other ways if needed.
+```Note: You don't have to know about docker-machine. You can run multiple virtualized nodes in other ways if needed.```
 
 ● [Describe and demonstrate how to extend the instructions to run individual containers into running services under swarm.](https://docs.docker.com/engine/swarm/services/)
 
@@ -151,17 +151,13 @@ Delete: https://github.com/docker/distribution/blob/master/docs/spec/api.md#dele
 ### Domain 3: Installation and Configuration (15% of exam)
 Content may include the following:
 
-------------------------------------------------------------------------------------------------------------------------------
-
 ● Describe sizing requirements for installation.
 
-UCP: https://docs.docker.com/ee/ucp/admin/install/system-requirements/
+  - [UCP](https://docs.docker.com/ee/ucp/admin/install/system-requirements/)
 
-DTR: https://docs.docker.com/ee/dtr/admin/install/system-requirements/
+  - [DTR](https://docs.docker.com/ee/dtr/admin/install/system-requirements/)
 
-Docker Engine: https://docs.docker.com/install/
-
-------------------------------------------------------------------------------------------------------------------------------
+  - [Docker Engine](https://docs.docker.com/install/)
 
 ● Describe and demonstrate the setup of repo, selection of a storage driver, and
 installation of the Docker engine on multiple platforms.
