@@ -223,21 +223,28 @@ Store images on S3: https://docs.docker.com/ee/dtr/admin/configure/external-stor
 Content may include the following:
 
 ● [Describe the Container Network Model and how it interfaces with the Docker engine and network
-and IPAM drivers.]
+and IPAM drivers.](https://success.docker.com/article/networking#thecontainernetworkingmodel)
 
-● [Describe the different types and use cases for the built-in network drivers.]
+● [Describe the different types and use cases for the built-in network drivers.](https://docs.docker.com/network/#network-drivers)
 
-● [Describe the types of traffic that flow between the Docker engine, registry and UCP
-controllers.]
+● Describe the types of traffic that flow between the Docker engine, registry and UCP
+controllers.
+
+Familiarize yourself with the networks and ports relevant to each of these as well as have an idea about how they work at a high level.
+
+https://docs.docker.com/ee/ucp/ucp-architecture/
+https://docs.docker.com/ee/ucp/admin/install/system-requirements/ 
+https://docs.docker.com/ee/dtr/architecture/
+
 
 ● [Describe and demonstrate how to create a Docker bridge network for developers to use for their
-containers.]
+containers.](https://docs.docker.com/network/bridge/)
 
-● [Describe and demonstrate how to publish a port so that an application is accessible externally.]
+● [Describe and demonstrate how to publish a port so that an application is accessible externally.](https://docs.docker.com/config/containers/container-networking/#published-ports)
 
-● [Identify which IP and port a container is externally accessible on.]
+● [Identify which IP and port a container is externally accessible on.](https://docs.docker.com/engine/reference/commandline/port/)
 
-● [Compare and contrast “host” and “ingress” publishing modes.]
+● [Compare and contrast “host” and “ingress” publishing modes.](https://docs.docker.com/engine/swarm/ingress/)
 
 ● [Describe and demonstrate how to configure Docker to use external DNS.]
 
