@@ -162,9 +162,9 @@ Content may include the following:
 ● Describe and demonstrate the setup of repo, selection of a storage driver, and
 installation of the Docker engine on multiple platforms.
 
-Depending on the OS, the installation method varies: https://docs.docker.com/search/?q=Docker%20Engine%20-%20Community
+  - Depending on the OS, the installation method varies: https://docs.docker.com/search/?q=Docker%20Engine%20-%20Community
 
-[Storage drivers](https://docs.docker.com/storage/storagedriver/select-storage-driver/)
+  - [Storage drivers](https://docs.docker.com/storage/storagedriver/select-storage-driver/)
 
 ```While you should know the pros/cons of each type of storage driver, the most important ones to read about are overlay2 and device-mapper. You don't need to bother with learning how to configure the others. You don't need to know exactly how to configure device-mapper in direct-lvm mode but you need to know about the various options that exist and how it compares with loopback-lvm.```
 
