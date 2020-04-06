@@ -291,15 +291,21 @@ This entire section is extremely poorly documented in the official documentation
 
 ● [Describe default engine security.](https://docs.docker.com/engine/security/security/)
 
-● [Describe swarm default security.]
+● [Describe swarm default security.](https://docs.docker.com/engine/swarm/how-swarm-mode-works/pki/)
 
-● [Describe MTLS.]
+● [Describe MTLS.](https://docs.docker.com/engine/security/https/)
 
-● [Describe identity roles.]
+● [Describe identity roles.](https://docs.docker.com/ee/ucp/authorization/define-roles/)
 
-● [Compare and contrast UCP workers and managers.]
+● [Compare and contrast UCP workers and managers.](https://docs.docker.com/ee/ucp/ucp-architecture/)
 
-● [Describe the process to use external certificates with UCP and DTR.]
+● Describe the process to use external certificates with [UCP](https://docs.docker.com/ee/ucp/admin/configure/use-your-own-tls-certificates/) and [DTR.](https://docs.docker.com/ee/dtr/admin/configure/use-your-own-tls-certificates/)
+
+Also see: 
+https://success.docker.com/article/how-do-i-provide-an-externally-generated-security-certificate-during-the-ucp-command-line-installation
+
+
+
 
 ● [Describe and demonstrate that an image passes a security scan.]
 
