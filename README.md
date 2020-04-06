@@ -265,7 +265,16 @@ https://kubernetes.io/docs/concepts/services-networking/service/
 
 ```NodePort: Exposes the Service on each Node’s IP at a static port (the NodePort). A ClusterIP Service, to which the NodePort Service routes, is automatically created. You’ll be able to contact the NodePort Service, from outside the cluster, by requesting <NodeIP>:<NodePort>.```
 
-● [Describe the Kubertnetes’ container network model.]
+● Describe the Kubertnetes’ container network model.
+
+  - https://kubernetes.io/docs/concepts/cluster-administration/networking/
+  
+  - https://github.com/containernetworking/cni
+  
+You don't have to know how these work at a lower level, but you do need to understand the concepts and also how to specify a CNI plugin. The official documentation does not do a very good job of explaining some of these points.
+
+If you have the book [Kubernetes in Action](https://www.manning.com/books/kubernetes-in-action) by Marko Lukša (1st edition, 2017), then page 335 does a fantastic job of explaining these in a much more condensed form.
+  
 
 ### Domain 5: Security (15% of exam)
 Content may include the following:
