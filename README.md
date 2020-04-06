@@ -303,16 +303,16 @@ This entire section is extremely poorly documented in the official documentation
 
 Also see: 
 
-https://success.docker.com/article/how-do-i-provide-an-externally-generated-security-certificate-during-the-ucp-command-line-installation
+  - https://success.docker.com/article/how-do-i-provide-an-externally-generated-security-certificate-during-the-ucp-command-line-installation
 
-https://docs.docker.com/datacenter/dtr/2.4/reference/cli/reconfigure/
+  - https://docs.docker.com/datacenter/dtr/2.4/reference/cli/reconfigure/
 
-● [Describe and demonstrate that an image passes a security scan.]
+● [Describe and demonstrate that an image passes a security scan.](https://docs.docker.com/ee/dtr/user/manage-images/scan-images-for-vulnerabilities/)
 
-● [Describe and demonstrate how to enable Docker Content Trust.]
+● [Describe and demonstrate how to enable Docker Content Trust.](https://success.docker.com/article/introduction-to-docker-content-trust)
 
-● [Describe and demonstrate how to configure RBAC with UCP.]
+● [Describe and demonstrate how to configure RBAC with UCP.](https://success.docker.com/article/introduction-to-docker-content-trust)
 
-● [Describe and demonstrate how to integrate UCP with LDAP/AD.]
+● [Describe and demonstrate how to integrate UCP with LDAP/AD.](https://docs.docker.com/ee/ucp/admin/configure/external-auth/)
 
-● [Describe and demonstrate how to create UCP client bundles.]
+● [Describe and demonstrate how to create UCP client bundles.](https://docs.docker.com/ee/ucp/user-access/cli/)
