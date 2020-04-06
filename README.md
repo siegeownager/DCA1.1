@@ -302,10 +302,10 @@ This entire section is extremely poorly documented in the official documentation
 ● Describe the process to use external certificates with [UCP](https://docs.docker.com/ee/ucp/admin/configure/use-your-own-tls-certificates/) and [DTR.](https://docs.docker.com/ee/dtr/admin/configure/use-your-own-tls-certificates/)
 
 Also see: 
+
 https://success.docker.com/article/how-do-i-provide-an-externally-generated-security-certificate-during-the-ucp-command-line-installation
 
-
-
+https://docs.docker.com/datacenter/dtr/2.4/reference/cli/reconfigure/
 
 ● [Describe and demonstrate that an image passes a security scan.]
 
