@@ -279,11 +279,17 @@ If you have the book [Kubernetes in Action](https://www.manning.com/books/kubern
 ### Domain 5: Security (15% of exam)
 Content may include the following:
 
-● [Describe security administration and tasks.]
+------------------------------------------------------------------------------------------------------------------------------
 
-● [Describe the process of signing an image.]
+This entire section is extremely poorly documented in the official documentation. You will have to piece together information from multiple pages in the docs as well as have a decent level of technical skill in order to be able to implement them if you rely purely on the official documentation. For learning about this section, it is highly recommended to read the book ``Docker Deep Dive`` mentioned in the introduction. If you are unable to obtain the book, I would recommend searching around on sites like reddit, stackoverflow, etc. I do not wish to link third party websites due to the risk of these websites going down in the future, so I have only included links to official documentation wherever possible.
 
-● [Describe default engine security.]
+------------------------------------------------------------------------------------------------------------------------------
+
+● [Describe security administration and tasks.](https://docs.docker.com/engine/security/)
+  
+● [Describe the process of signing an image.](https://docs.docker.com/engine/security/trust/content_trust/)
+
+● [Describe default engine security.](https://docs.docker.com/engine/security/security/)
 
 ● [Describe swarm default security.]
 
